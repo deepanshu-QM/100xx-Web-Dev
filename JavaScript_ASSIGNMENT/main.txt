@@ -1,0 +1,2 @@
+
+The document outlines various pattern printing problems, each requiring a specific pattern to be printed based on given parameters like the number of rows ($n$) or the number of rows and columns ($n$ and $m$).he patterns covered include:Number-based Patterns:RINT 1 TO N: Print numbers 1, 2, 3, 4, 5, etc., possibly in a column, given $n$ (number of rows). Examples are shown for $n=5$, $n=6$, and $n=7$.
