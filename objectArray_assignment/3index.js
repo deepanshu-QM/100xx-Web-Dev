@@ -12,3 +12,11 @@ for(let key in Input){      //Keys = a,b,c
     output[Input[key]] = key;
 }
 console.log(output)
+
+
+/*
+key = a,b,c
+Input[key] = "x","y","z"
+output[Input[key]] = output["x"], output["y"], output["z"];
+
+*/
