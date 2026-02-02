@@ -11,3 +11,31 @@
 // ```
 // hello world my name is raman
 // ```
+
+const fs = require('fs');
+
+
+
+function Filehandle(){
+    
+    //Read-File
+    fs.readFile('main.txt','utf8',(err,data) => {
+        if(err){
+            console.log(err.message);
+            return;
+        }
+        const new_data = data.replace(/\s+/g, ' ');
+        console.log(new_data);
+    });
+
+    // Write-BackOn-File
+    fs.writeFile('main.txt', new_data,(err) => {
+        if(err){
+            console.log(err.message);
+            return;
+        }
+
+        console.log("Task Completed");
+    });
+}
+Filehandle();
